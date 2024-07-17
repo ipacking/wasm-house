@@ -22,6 +22,9 @@ slint::slint! {
 
         VerticalBox {
             spacing: 20px;
+            Text {
+                text: "input text ...";
+            }
 
             te := TextEdit {
 
