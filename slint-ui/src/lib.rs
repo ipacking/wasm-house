@@ -14,9 +14,12 @@ pub fn start() {
 }
 
 slint::slint! {
+    import "./SimSun.ttf";
     import { VerticalBox, TextEdit, Button } from "std-widgets.slint";
+
     export component MainWindow inherits Window {
         title: "slint";
+        default-font-family: "宋体";
         width: 500px;
         height: 400px;
 
